@@ -1,166 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pradumn Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet"  href="default.css">
-    <!-- <link id="theme-style" rel="stylesheet" href="blue.css"> -->
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pradumn Chavan | Bioinformatician Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
-<body class="body">
-    
-    <section class="s1">
-        <div class="main-container">
-            <div class="greeting-wrapper">
-             <h1>Hi I am Pradumn Chavan</h1>
-            </div>
-
-            <div class="intro-wrapper">
-                <div class="nav-wrapper">
-                    <div class="dots-wrapper">
-                        <div id="dot1" class="browser-dot"></div>
-                        <div id="dot2" class="browser-dot"></div>
-                        <div id="dot3" class="browser-dot"></div>
-                    </div>
-                    <ul id="navigation">
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </div> 
-                <div class="left-column">
-                    <img id="profile_pic" src="images/pcimg.jpg" alt="pcimg">
-                    <!-- <h5 style="text-align:center;line-height: 0;">Persenelise Theame </h5>
-
-                    <div id="theme-option-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="blue-mode" class="theme-dot"></div>
-                        <div id="green-mode" class="theme-dot"></div>
-                        <div id="purple-mode" class="theme-dot"></div>
-                    </div> 
-                 <p id="setting-notes">*Theme setting will be saved for <br> your next visit</p> 
-                </div>   -->
-                <div class="right-column">
-
-                    <div id="preview-shadow">
-                        <div id="preview">
-                            <div id="corner-tl" class="corner"></div>
-                            <div id="corner-tr" class="corner"></div>
-                            <h3>What I Do</h3>
-                            <p>I am a Bioinformatics master student interest in data science and Genomics</p>
-                            <div id="corner-br" class="corner"></div>
-                            <div id="corner-bl" class="corner"></div>
-                        </div>
-                    </div>
-                </div>     
-            </div>
-        </div>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content" data-aos="fade-down">
+      <img src="https://ui-avatars.com/api/?name=Pradumn+Chavan&background=23272f&color=ffd700&size=140" alt="Profile" class="profile-img">
+      <h1>Pradumn Chavan</h1>
+      <p class="subtitle">Bioinformatics Engineer | 4+ Years Experience</p>
+      <a href="#contact" class="cta-btn">Contact Me <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </section>
+  <main>
+    <section id="about" class="card" data-aos="fade-up">
+      <h2><i class="fas fa-user"></i> About Me</h2>
+      <p>Bioinformatics Engineer with 4+ years of industry experience applying first principles to develop scalable NGS data pipelines and precision diagnostic tools. Proficient in Python, AWS cloud services, and MongoDB. Experienced in preprocessing and integrating large-scale genomic knowledgebase data such as COSMIC, gnomAD, ClinVar, and PubMed. Strong focus on automation, code testing, and cross-functional collaboration in precision medicine domains.</p>
     </section>
-    <section class="s2">
-        <div class="main-container">
-           <div class="about-wrapper">
-               <div class="about-me">
-                    <H4>More About Me</H4>
-                    <p>
-                        I am Bioinformatics student with interest in genomics data analysis and deep understanding of machine learning algorithms.My main focus is implementation machine learning algorithms that will help in understanding and processing genomics data.
-                    </p>
-                    <p> Currently i am learning DL algorithms in application of life science</p>
-                    <hr>
-                    <h4>TOP EXPERTISE</h4>
-                    <p>Bioinformatics data analysis with 
-                        focus on ML based Genomics: <a target="_blank" href="resume.pdf">Download Resume</a>
-                    </p>
-                    <div id="skills">
-                        <ul>
-                            <li>Python</li>
-                            <li>Genomics</li>
-                            <li>Machine Learning</li>
-                            <li>Bioinformatics</li>
-                        </ul>
-                        <ul>
-                            <li>Chemoinformatics</li>
-                            <li>HTML/CSS</li>
-                            <li>Perl</li>
-                            <li>MySQL</li>
-                        </ul>
-                    </div>
-
-                </div>
-               <div class="social-link">
-                   <div class="social-wrapper">
-                        <H4 style="text-align: center;">Contact Me</H4>
-                        <ul> 
-                            <li class="social-list">
-                                <a target="_blank" href="https://github.com/pradumnpc"><i class="fa fa-github-square "></i> Github:  @pradumnpc</a>    
-                            </li>
-                            <li class="social-list">
-                                <a target="_blank" href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin-square "></i> Linkedin:  @pradumnpc</a>    
-                            </li>
-                            <li class="social-list">
-                                <a target="_blank" href="https://github.com/pradumnpc"><i class="fa fa-twitter-square "></i> Twitter:  @pradumnpc</a>    
-                            </li>
-
-                        </ul>
-                   </div> 
-           
-
-
-            </div>
-           </div>
+    <section id="experience" class="card" data-aos="fade-up">
+      <h2><i class="fas fa-briefcase"></i> Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-flask"></i></div>
+          <div class="timeline-content">
+            <h3>Bioinformatics Engineer, Velsera <span class="timeline-date">(June 2021 – Present, Remote)</span></h3>
+            <ul>
+              <li>Supported knowledge base development for an oncology reporting system used to generate customized treatment recommendations.</li>
+              <li>Engineered a suite of Python tools that automated key processes, leading to a more than 90% improvement in workflow efficiency.</li>
+              <li>Designed and deployed automated tools using AWS services for large-scale processing.</li>
+              <li>Preprocessed and integrated complex cancer-related data from sources like COSMIC, gnomAD, ClinVar, PubMed.</li>
+              <li>Wrote unit tests for code validation and ensured robust, modular design.</li>
+              <li>Managed MongoDB-based pipelines for variant data storage and access.</li>
+              <li>Collaborated with cross-functional stakeholders to define features and improve diagnostic data processing.</li>
+              <li>Worked in an agile team following Scrum methodology, contributing to sprint-based delivery and iterative development.</li>
+              <li>Used JIRA, Confluence, and Qualtrax for task tracking and quality compliance.</li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
-    <section class="s1">
-        <div class="main-container">
-            <h3 style="text-align: center;">Some of My past Project</h3>
-            <div class="post-wrapper">
-                <div class="post">
-                    <img id="thumbnail" src="images/Titanic.jpg" alt="">
-                    <div class="post-preview">
-                        <h6 class="post-title">Titanic Survival Prediction</h6>
-                        <p class="post-intro">Classify if passenger will survive on titanic ship or not based on feature </p>
-                        <a href="post.html">Read More</a>
-                    </div>
-                </div>
-
-                <div class="post">
-                    <img id="thumbnail" src="images/dna.png" alt="">
-                    <div class="post-preview">
-                        <h6 class="post-title">Dna Seq Classification</h6>
-                        <p class="post-intro">Classify if passenger will survive on titanic ship or not based on feature </p>
-                        <a href="post.html">Read More</a>
-                    </div>
-                </div>
-                <div class="post">
-                    <img id="thumbnail" src="images/cancer.jpg" alt="">
-                    <div class="post-preview">
-                        <h6 class="post-title">Classification of cancer Types </h6>
-                        <p class="post-intro">Classification of cancer types using patient gene expression database and got accuracy around 85% </p>
-                        <a href="post.html">Read More</a>
-                    </div>
-                </div>
-            </div>
+    <section id="skills" class="card" data-aos="fade-up">
+      <h2><i class="fas fa-code"></i> Skills</h2>
+      <div class="skills-grid">
+        <div><i class="fab fa-python"></i> <strong>Languages:</strong> Python, BASH</div>
+        <div><i class="fas fa-tools"></i> <strong>Tools:</strong> Git, GitHub, Bitbucket, UiPath</div>
+        <div><i class="fas fa-cloud"></i> <strong>Cloud & DevOps:</strong> AWS (Batch, Lambda, S3, ECR, Step Functions), Docker, Jenkins</div>
+        <div><i class="fas fa-dna"></i> <strong>Bioinformatics Tools:</strong> FASTQC, Bowtie, Samtools, Picard, GATK, SnpEFF, Transvar, IGV</div>
+        <div><i class="fas fa-database"></i> <strong>Databases:</strong> MongoDB, MySQL</div>
+        <div><i class="fas fa-cubes"></i> <strong>Frameworks:</strong> pandas, Flask (Beginner), NCBI E utils</div>
+        <div><i class="fas fa-vial"></i> <strong>NGS:</strong> DNA-Seq</div>
+      </div>
+    </section>
+    <section id="projects" class="card" data-aos="fade-up">
+      <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-dna"></i></div>
+          <div>
+            <strong>Project 1:</strong> Description of a key project. (Add your project details here)
+          </div>
         </div>
-    </section>
-    <section class="s2">
-        <div class="main-container">
-            <h3 style="text-align: center;">Get in Touch </h3>
-            <form action="" id="contact-form">
-                <label for="">Name</label>
-                <input class="input-feild" type="text" name="name">
-                <label for="">Subject</label>
-                <input class="input-feild" type="text" name="subject">
-                <label for="">email</label>
-                <input class="input-feild" type="email" name="email">
-                <label for="">Massage</label>
-                <textarea class="input-feild" name="massage" ></textarea>
-
-                <input id="submit-btn" type="submit" value="Send">
-
-            </form>
-
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-vials"></i></div>
+          <div>
+            <strong>Project 2:</strong> Description of another project. (Add your project details here)
+          </div>
         </div>
+      </div>
     </section>
+    <section id="contact" class="card" data-aos="fade-up">
+      <h2><i class="fas fa-envelope"></i> Contact</h2>
+      <div class="contact-links">
+        <a href="mailto:pradumnpc@gmail.com" class="contact-btn"><i class="fas fa-envelope"></i> Email</a>
+        <a href="tel:+918408919340" class="contact-btn"><i class="fas fa-phone"></i> Call</a>
+        <a href="https://linkedin.com/in/pradumn-chavan" target="_blank" class="contact-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/pradumnpc" target="_blank" class="contact-btn"><i class="fab fa-github"></i> GitHub</a>
+        <a href="../pradumn_chavan_resume.pdf" target="_blank" class="contact-btn btn-resume" download><i class="fas fa-file-pdf"></i> Download Resume (PDF)</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-social">
+      <a href="mailto:pradumnpc@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://linkedin.com/in/pradumn-chavan" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/pradumnpc" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="../pradumn_chavan_resume.pdf" target="_blank" title="Resume"><i class="fas fa-file-pdf"></i></a>
+    </div>
+    <p>&copy; 2025 Pradumn Chavan</p>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ once: true });</script>
 </body>
-</html>
+</html> 

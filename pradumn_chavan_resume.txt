@@ -1,0 +1,54 @@
+Pradumn B Chavan
+pradumnpc@gmail.com | +91-8408919340 |linkedin.com/in/pradumn-chavan
+
+Professional Summary
+Bioinformatics Engineer with 4+ years of industry experience applying first principles to develop scalable NGS data
+pipelines and precision diagnostic tools. Proficient in Python, AWS cloud services (Lambda, Batch, S3, Step Functions), and MongoDB. Experienced in preprocessing and integrating large-scale genomic knowledgebase data such
+as COSMIC, gnomAD, ClinVar, and PubMed etc. Strong focus on automation, code testing, and cross-functional
+collaboration in precision medicine domains.
+
+Technical Skills
+• Languages: Python, BASH
+
+• Tools: Git, GitHub, Bitbucket, UiPath
+
+• Cloud & DevOps: AWS (Batch, Lambda, S3, ECR,
+• Bioinformatics Tools: FASTQC, Bwotie, Samtools,
+Step Functions), Docker, Jenkins
+Picard, GATK, SnpEFF, Transvar, IGV
+• Databases: MongoDB, MySQL
+• Frameworks: pandas, Flask(Beginner), NCBI E utils.
+
+• NGS: DNA-Seq
+
+Experience
+Bioinformatics Engineer, Velsera
+
+June 2021 – Present, Remote
+
+• Supported knowledge base development for an oncology reporting system used to generate customized treatment
+recommendations.
+• Engineered a suite of Python tools that automated key processes, leading to a more than 90% improvement in our
+team’s workflow efficiency.
+• Designed and deployed automated tools using AWS services (Batch, Lambda, S3, ECR, and Step Functions) for
+large-scale processing.
+• Wrote clean and modular Python code to preprocess and integrate complex cancer-related data from diverse sources
+like COSMIC, gnomAD,ClinVar, Pubmed etc.
+• Wrote unit tests for code validation and ensured robust, modular design.
+• Managed MongoDB-based pipelines for variant data storage and access.
+• Collaborated with cross-functional stakeholders to define features and improve diagnostic data processing.
+• Worked in an agile team following Scrum methodology, contributing to sprint-based delivery and iterative development.
+• Used JIRA, Confluence, and Qualtrax for task tracking and quality compliance.
+
+Education
+M.Sc. in Bioinformatics, Bioinformatics Center, SPPU, Pune
+CGPA: 8.9/10
+B.Sc. in Bioinformatics, MGM Institute of Bioscience, Aurangabad
+
+Honours
+• Awarded DBT-GOI studentship for securing top 10 rank in M.Sc. Bioinformatics 1st year.
+
+2019 – 2021
+2016 – 2019
+
+
